@@ -1,0 +1,35 @@
+# Eclipse specific files
+.classpath
+.project
+.settings/
+.metadata/
+*.launch
+*.pydevproject
+
+# Compiled files
+bin/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Local environment files
+tmp/
+*.tmp
+*.bak
+*.swp
+local.properties
+
+# External tool builders
+.externalToolBuilders/
+
+# macOS specific files (if applicable)
+.DS_Store
+
+#
+*.sh
+compile_and_dep.sh
+classes.txt
+options.txt
+Readme.txt
