@@ -21,6 +21,8 @@ public class TestInitParams extends HttpServlet {
 		out.println("<br>");
 		out.println("admin email is: " + getServletConfig().getInitParameter("adminEmail"));
 		
+		out.println("<br><br><br><div><a href='/Beer-V1'>Back</a></div>");
+		
 		out.close();
 	}
 }
