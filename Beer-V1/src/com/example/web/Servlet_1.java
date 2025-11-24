@@ -5,6 +5,7 @@ import javax.servlet.http.*;
 import java.io.*;
 public class Servlet_1 extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)	throws IOException {
+	  System.out.println("\nServlet_1 ran.\n");
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		java.util.Date today = new java.util.Date();

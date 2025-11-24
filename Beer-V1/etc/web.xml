@@ -39,4 +39,22 @@
 		<url-pattern>/SelectBeer.do</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>Ch6 Cookie 1</servlet-name>
+		<servlet-class>com.example.CookieTest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Ch6 Cookie 1</servlet-name>
+		<url-pattern>/cookietest.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Ch6 Cookie 2</servlet-name>
+		<servlet-class>com.example.CheckCookie</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Ch6 Cookie 2</servlet-name>
+		<url-pattern>/cookiecheck.do</url-pattern>
+	</servlet-mapping>
+	
 </web-app>
